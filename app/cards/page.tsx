@@ -7,22 +7,23 @@ export default function CardsPage() {
         <p className="text-gray-500 mt-1">Manage your Wise cards</p>
       </header>
 
+
       {/* Achievement CTA Banner */}
-      <div className="mb-8 p-4 bg-[#e8f5e0] border border-[#9fe870]/30 rounded-xl flex items-center gap-4">
-        <div className="w-12 h-12 bg-[#9fe870] rounded-full flex items-center justify-center flex-shrink-0">
-          <span className="text-2xl">🌍</span>
+      <div className="mb-8 p-4 bg-[#ece57d] border border-[#9fe870]/30 rounded-xl flex items-center gap-4">
+        <div className="w-12 h-12 bg-[#ffffff] rounded-full flex items-center justify-center flex-shrink-0">
+          <span className="text-2xl">🎨</span>
         </div>
         <div className="flex-1">
           <div className="flex items-center gap-2">
-            <span className="text-xs font-semibold text-[#163300] bg-[#9fe870] px-2 py-0.5 rounded-full">
-              ACHIEVEMENT
+            <span className="text-xs font-semibold text-[#ffffff] bg-[#e8b870] px-2 py-0.5 rounded-full">
+              REWARD AVAILABLE
             </span>
           </div>
-          <p className="font-semibold text-[#163300] mt-1">Globe Trotter</p>
-          <p className="text-sm text-[#163300]/70">Use your card in another country to unlock this achievement and earn 50 bonus points!</p>
+          <p className="font-semibold text-[#163300] mt-1">Custom Design for Coins</p>
+          <p className="text-sm text-[#163300]/70">Order your next card with a custom design with Wise Coins!</p>
         </div>
-        <button className="px-4 py-2 bg-[#163300] text-white rounded-full text-sm font-semibold hover:bg-[#1e4400] transition-colors flex-shrink-0">
-          Learn more
+        <button className="px-4 py-2 bg-[#a59135] text-white rounded-full text-sm font-semibold hover:bg-[#1e4400] transition-colors flex-shrink-0">
+          Order now
         </button>
         <button className="p-1.5 hover:bg-[#9fe870]/30 rounded-full transition-colors flex-shrink-0">
           <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" className="text-[#163300]/60">
@@ -30,6 +31,9 @@ export default function CardsPage() {
           </svg>
         </button>
       </div>
+
+
+
 
       {/* Cards Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
@@ -96,6 +100,30 @@ export default function CardsPage() {
             Active
           </span>
         </div>
+      </div>
+
+      {/* Achievement CTA Banner */}
+      <div className="mb-8 p-4 bg-[#e8f5e0] border border-[#9fe870]/30 rounded-xl flex items-center gap-4">
+        <div className="w-12 h-12 bg-[#9fe870] rounded-full flex items-center justify-center flex-shrink-0">
+          <span className="text-2xl">🌍</span>
+        </div>
+        <div className="flex-1">
+          <div className="flex items-center gap-2">
+            <span className="text-xs font-semibold text-[#163300] bg-[#9fe870] px-2 py-0.5 rounded-full">
+              ACHIEVEMENT
+            </span>
+          </div>
+          <p className="font-semibold text-[#163300] mt-1">Globe Trotter</p>
+          <p className="text-sm text-[#163300]/70">Use your card in another country to unlock this achievement and earn 50 bonus points!</p>
+        </div>
+        <button className="px-4 py-2 bg-[#163300] text-white rounded-full text-sm font-semibold hover:bg-[#1e4400] transition-colors flex-shrink-0">
+          Learn more
+        </button>
+        <button className="p-1.5 hover:bg-[#9fe870]/30 rounded-full transition-colors flex-shrink-0">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" className="text-[#163300]/60">
+            <path d="M18.3 5.71a1 1 0 00-1.42 0L12 10.59 7.12 5.71a1 1 0 00-1.42 1.42L10.59 12l-4.89 4.88a1 1 0 101.42 1.42L12 13.41l4.88 4.89a1 1 0 001.42-1.42L13.41 12l4.89-4.88a1 1 0 000-1.41z"/>
+          </svg>
+        </button>
       </div>
 
       {/* Quick Actions */}

@@ -165,7 +165,7 @@ export default function AchievementsPage() {
       <div className="grid grid-cols-3 gap-4 mb-8">
         <div className="bg-[#e8f5e0] rounded-xl p-4 text-center">
           <p className="text-3xl font-bold text-[#163300]">
-            {unlockedAchievements}/{totalAchievements}
+            {unlockedAchievements}/{totalAchievements+56}
           </p>
           <p className="text-sm text-[#163300]/70">Unlocked</p>
         </div>

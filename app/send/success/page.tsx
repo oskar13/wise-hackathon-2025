@@ -194,7 +194,7 @@ export default function SendSuccessPage() {
 
         {/* Done Button */}
         <Link
-          href="/"
+          href="/achievements"
           className={`mt-8 px-16 py-4 bg-[#9fe870] text-[#163300] rounded-full text-lg font-semibold hover:bg-[#b5f286] transition-all hover:scale-105 ${
             mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
