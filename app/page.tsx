@@ -27,8 +27,8 @@ export default function Home() {
         </button>
       </div>
 
-      {/* Achievements progress bar */}
-      <section className="mb-8 p-5 border border-gray-200 rounded-xl">
+      {/* Achievements progress bar
+      <section className="mb-8 p-5 border border-gray-200 rounded-xl bg-[#f2f5e0]">
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
             <span className="text-lg">🏆</span>
@@ -45,7 +45,7 @@ export default function Home() {
         <p className="text-sm text-gray-500 mt-2">Complete achievements to unlock rewards</p>
       </section>
 
-
+ */}
       {/* Feature Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
         <FeatureCard
