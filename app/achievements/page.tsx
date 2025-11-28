@@ -36,10 +36,10 @@ const achievementCategories: Category[] = [
       },
       {
         id: "jet-setter",
-        name: "Jet-Setter",
+        name: "Global Citizen",
         description: "You're becoming a true global citizen!",
-        trigger: "Send money to 3+ different countries",
-        icon: "🛫",
+        trigger: "Spend money in 3 different currencies",
+        icon: "🌎",
         coins: 100,
         unlocked: true,
         unlockedDate: "Nov 20, 2025",
