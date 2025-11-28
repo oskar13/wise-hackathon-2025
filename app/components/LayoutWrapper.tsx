@@ -21,16 +21,16 @@ export default function LayoutWrapper({
   return (
     <>
       {/* Top Header */}
-      <header className="h-16 border-b border-gray-100 flex items-center justify-end px-6 gap-4">
+      <header className="h-16 border-b border-gray-100 flex items-center justify-end px-6 gap-4 bg-white">
         <button className="px-4 py-2 bg-[#9fe870] text-[#163300] rounded-full text-sm font-semibold hover:bg-[#8fd960] transition-colors">
           Earn €90
         </button>
         <button className="flex items-center gap-3 hover:bg-gray-50 rounded-full py-1.5 px-2 pr-4 transition-colors">
           <div className="w-9 h-9 rounded-full bg-gray-100 flex items-center justify-center text-sm font-semibold text-gray-700 relative">
-            JE
+            JD
             <span className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 bg-red-500 rounded-full border-2 border-white"></span>
           </div>
-          <span className="text-sm font-medium text-gray-900">Joosep Oskar Ehaver</span>
+          <span className="text-sm font-medium text-gray-900">John Doe</span>
           <svg
             width="16"
             height="16"

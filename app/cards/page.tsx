@@ -51,7 +51,7 @@ export default function CardsPage() {
               <div className="flex justify-between items-end">
                 <div>
                   <p className="text-white/60 text-xs">Card holder</p>
-                  <p className="text-sm">JOOSEP OSKAR EHAVER</p>
+                  <p className="text-sm">JOHN DOE</p>
                 </div>
                 <div className="text-right">
                   <p className="text-white/60 text-xs">Expires</p>
@@ -83,7 +83,7 @@ export default function CardsPage() {
               <div className="flex justify-between items-end">
                 <div>
                   <p className="text-white/60 text-xs">Card holder</p>
-                  <p className="text-sm">JOOSEP OSKAR EHAVER</p>
+                  <p className="text-sm">JOHN DOE</p>
                 </div>
                 <div className="text-right">
                   <p className="text-white/60 text-xs">Expires</p>
