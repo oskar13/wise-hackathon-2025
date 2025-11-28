@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 const steps = [
   { name: "Recipient", completed: true },
@@ -11,8 +12,13 @@ const steps = [
 ];
 
 export default function SendPaymentPage() {
+  const router = useRouter();
   const [amount, setAmount] = useState("10");
   const [reference, setReference] = useState("");
+
+  const handleContinue = () => {
+    router.push("/send/success");
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -183,7 +189,10 @@ export default function SendPaymentPage() {
         </section>
 
         {/* Continue Button */}
-        <button className="w-full py-4 bg-[#9fe870] text-[#163300] rounded-full text-lg font-semibold hover:bg-[#8fd960] transition-colors mt-4">
+        <button 
+          onClick={handleContinue}
+          className="w-full py-4 bg-[#9fe870] text-[#163300] rounded-full text-lg font-semibold hover:bg-[#8fd960] transition-colors mt-4"
+        >
           Continue
         </button>
       </main>
